@@ -42,7 +42,7 @@ def download_link(object_to_download, download_filename, download_link_text):
 
 # Streamlit Interface
 st.title("Bulk .htaccess Tester")
-st.write("This tool lets you upload a csv with a list of URLs (with column header 'urls') and an .htaccess file. It will then bulk check the URLs against the htaccess file, telling where each URL will be redirected to. It uses https://htaccess.madewithlove.com/ API to check the htaccess response.")
+st.write("This tool lets you upload a csv with a list of URLs (with column header 'urls') and an .htaccess file. It will then bulk check the URLs against the htaccess file, telling you where each URL will be redirected to. It uses https://htaccess.madewithlove.com/ API to check the htaccess response.")
 
 # Start the form
 with st.form(key='files_form'):
